@@ -1,9 +1,5 @@
-function doNothing() {}
-
-doNothing();
-
-function sayHello() {
-  console.log('Hello!')
+log();
+function log() {
+  console.log(greeting);
+  var greeting = 'Hello!';
 }
-
-sayHello();
